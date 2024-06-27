@@ -1,0 +1,520 @@
+[2024-06-26T17:19:11.158+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_sentiment_analysis.sa_load manual__2024-06-26T17:14:03.895537+00:00 [queued]>
+[2024-06-26T17:19:11.167+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_sentiment_analysis.sa_load manual__2024-06-26T17:14:03.895537+00:00 [queued]>
+[2024-06-26T17:19:11.167+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-06-26T17:19:11.180+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): sa_load> on 2024-06-26 17:14:03.895537+00:00
+[2024-06-26T17:19:11.186+0000] {standard_task_runner.py:60} INFO - Started process 440 to run task
+[2024-06-26T17:19:11.188+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_sentiment_analysis', 'sa_load', 'manual__2024-06-26T17:14:03.895537+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/dag_sentiment_analysis.py', '--cfg-path', '/tmp/tmppvyu96yk']
+[2024-06-26T17:19:11.189+0000] {standard_task_runner.py:88} INFO - Job 25: Subtask sa_load
+[2024-06-26T17:19:11.202+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-06-26T17:19:11.232+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_sentiment_analysis.sa_load manual__2024-06-26T17:14:03.895537+00:00 [running]> on host 1c9d131eac14
+[2024-06-26T17:19:11.293+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='de-team' AIRFLOW_CTX_DAG_ID='dag_sentiment_analysis' AIRFLOW_CTX_TASK_ID='sa_load' AIRFLOW_CTX_EXECUTION_DATE='2024-06-26T17:14:03.895537+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-26T17:14:03.895537+00:00'
+[2024-06-26T17:19:12.234+0000] {logging_mixin.py:188} INFO - Pinged your deployment. You successfully connected to MongoDB!
+[2024-06-26T17:19:15.875+0000] {logging_mixin.py:188} INFO - Summary The Investing Club holds its "Morning Meeting" every weekday at 10:20 a.m. ET. successfully analized
+[2024-06-26T17:19:15.876+0000] {logging_mixin.py:188} INFO - Summary A difficult childhood left Jennifer Romolini  “addicted” to career success, she writes in her new memoir, “Ambition Monster.” Here’s her advice for a healthier relationship with work. successfully analized
+[2024-06-26T17:19:15.877+0000] {logging_mixin.py:188} INFO - Summary MarketWatch asked six economists why home prices continue to rise, despite elevated mortgage rates and suppressed home sales. successfully analized
+[2024-06-26T17:19:15.878+0000] {logging_mixin.py:188} INFO - Summary First launched in the U.S. in December 2023, the diagnostic tool is now available in 32 European countries, including the U.K., France and Germany. successfully analized
+[2024-06-26T17:19:15.879+0000] {logging_mixin.py:188} INFO - Summary Some investors who tried to buy shares of Berkshire Hathaway Class A stock during a New York Stock Exchange Trading glitch earlier this month were horrified to learn that their orders had been filled at full price — not the more than 99% discount they had been expecting. successfully analized
+[2024-06-26T17:19:15.880+0000] {logging_mixin.py:188} INFO - Summary FedEx Corp.’s outstanding bonds saw net buying out of the gate on Wednesday, in a positive response to the company’s better-than-expected fiscal fourth-quarter earnings and news of a strategic review of its freight business. successfully analized
+[2024-06-26T17:19:15.881+0000] {logging_mixin.py:188} INFO - Summary With Big Tech running into some selling recently, we're asking: Is it too late to get in on the Super Six? successfully analized
+[2024-06-26T17:19:15.882+0000] {logging_mixin.py:188} INFO - Summary Are you getting less than 1% or more than 5%? Do you even know? successfully analized
+[2024-06-26T17:19:15.882+0000] {logging_mixin.py:188} INFO - Summary The S&P 500 index is up over 14% year-to-date, while the Nasdaq Composite is up 18%, but retail investors still think cash is king. successfully analized
+[2024-06-26T17:19:15.883+0000] {logging_mixin.py:188} INFO - Summary Other S&P 500 companies that have done stock splits this year saw nice boosts after announcing splits but muted action after they took effect. successfully analized
+[2024-06-26T17:19:15.883+0000] {logging_mixin.py:188} INFO - Summary Anxiety is often billed as a negative emotion, the "Inside Out 2" shows how it can play a helpful role in your life. successfully analized
+[2024-06-26T17:19:15.884+0000] {logging_mixin.py:188} INFO - Summary Chilled storage specialist was founded in 2008 by two Morgan Stanley veterans. successfully analized
+[2024-06-26T17:19:15.884+0000] {logging_mixin.py:188} INFO - Summary New home sales at 619,000 annual rate in May versus 640,000 in prior month. successfully analized
+[2024-06-26T17:19:15.885+0000] {logging_mixin.py:188} INFO - Summary The S&amp;P 500 and Nasdaq are seeking another positive day after snapping three-session losing streaks Tuesday. successfully analized
+[2024-06-26T17:19:15.886+0000] {logging_mixin.py:188} INFO - Summary FedEx has placed its freight business under strategic review, the company said when it reported fiscal fourth-quarter results Tuesday. successfully analized
+[2024-06-26T17:19:15.886+0000] {logging_mixin.py:188} INFO - Summary Both the S&P 500 and Nasdaq Composite have seen a remarkable record-setting run so far in 2024, even as some corners of the stock market have continued to struggle. But trouble may lurk in the back half of the year. successfully analized
+[2024-06-26T17:19:15.887+0000] {logging_mixin.py:188} INFO - Summary A Stifel analyst says legacy carmakers don’t have the EV know-how to adequately compete with Tesla. successfully analized
+[2024-06-26T17:19:15.888+0000] {logging_mixin.py:188} INFO - Summary Closely followed technician Tom DeMark says a months-long uptrend in the stock market is likely about to hit a temporary peak before a fresh run at a new high. successfully analized
+[2024-06-26T17:19:15.888+0000] {logging_mixin.py:188} INFO - Summary With a market cap of about $5 billion, Whirlpool would represent a major deal for Bosch. successfully analized
+[2024-06-26T17:19:15.889+0000] {logging_mixin.py:188} INFO - Summary Economic fears among top corporate executives move higher in the latest quarterly survey of the CNBC CFO Council. successfully analized
+[2024-06-26T17:19:15.890+0000] {logging_mixin.py:188} INFO - Summary Rivian Automotive Inc. drew praise from at least two analysts on Wednesday as its stock rallied in premarket trades on the electric vehicle maker’s joint venture with German care giant Volkswagen. successfully analized
+[2024-06-26T17:19:15.890+0000] {logging_mixin.py:188} INFO - Summary Greenlight Capital has said an ongoing spat with one of its former staffers over his job title is hurting its business, deterring investors from putting money in the multi-billion-dollar hedge fund and hindering its ability to recruit new employees. successfully analized
+[2024-06-26T17:19:15.891+0000] {logging_mixin.py:188} INFO - Summary The Nvidia stock rally has reignited, with the stock heading to a consecutive day of gains after a recent slide into correction territory. successfully analized
+[2024-06-26T17:19:15.891+0000] {logging_mixin.py:188} INFO - Summary Retirement may be out of reach for the average person lacking financial education and resources. successfully analized
+[2024-06-26T17:19:15.892+0000] {logging_mixin.py:188} INFO - Summary General Mills’ CEO said the company “enhanc[ed] our efficiency in response to a more challenging operating environment.” successfully analized
+[2024-06-26T17:19:15.893+0000] {logging_mixin.py:188} INFO - Summary Share repurchases are at a record, but that isn’t necessarily bullish for the U.S. market successfully analized
+[2024-06-26T17:19:15.894+0000] {logging_mixin.py:188} INFO - Summary Vista Outdoor, parent to brands including CamelBak and Bushnell,  has been the subject of several M&A offers. successfully analized
+[2024-06-26T17:19:15.894+0000] {logging_mixin.py:188} INFO - Summary Mortgage applications rose 0.8% in the last week, the Mortgage Bankers Association said. The average rate for a 30-year mortgage is 6.93%. successfully analized
+[2024-06-26T17:19:15.895+0000] {logging_mixin.py:188} INFO - Summary With Americans still hurting from weathering the highest inflation rate in 40 years, pocketbook issues look set to play a big role in Thursday night’s presidential debate between Joe Biden and Donald Trump. successfully analized
+[2024-06-26T17:19:15.896+0000] {logging_mixin.py:188} INFO - Summary Southwest Airlines Co.’s stock tumbled 10% premarket Wednesday, after the carrier lowered its second-quarter revenue guidance in a dynamic environment. successfully analized
+[2024-06-26T17:19:15.896+0000] {logging_mixin.py:188} INFO - Summary Oil futures rose Wednesday, finding support amid continued jitters over the potential for a broader Middle East conflict as traders awaited official U.S. data on crude and product inventories. successfully analized
+[2024-06-26T17:19:15.897+0000] {logging_mixin.py:188} INFO - Summary Societe Generale’s U.S. equity team says investors looking for the next leg of this stock rally will have to wait until early 2025. successfully analized
+[2024-06-26T17:19:15.898+0000] {logging_mixin.py:188} INFO - Summary A senior research economist at the Federal Reserve’s Cleveland branch, Randal Verbrugge, says the intrinsic characteristics of inflation make it unlikely to get down to the Fed’s 2% target in a timely way. successfully analized
+[2024-06-26T17:19:15.899+0000] {logging_mixin.py:188} INFO - Summary “We have no debt and live comfortably on $150,000 per year.” successfully analized
+[2024-06-26T17:19:15.900+0000] {logging_mixin.py:188} INFO - Summary Citadel founder Ken Griffin received a rare public apology from the Internal Revenue Service after his tax records were leaked. successfully analized
+[2024-06-26T17:19:15.900+0000] {logging_mixin.py:188} INFO - Summary The serene, four-bedroom, four-bath luxury house is in a private, leafy enclave in the upscale Woodland Hills neighborhood. successfully analized
+[2024-06-26T17:19:15.901+0000] {logging_mixin.py:188} INFO - Summary DoorDash reportedly approached Deliveroo last month before negotiations between the two companies broke down over disagreements about valuations successfully analized
+[2024-06-26T17:19:15.901+0000] {logging_mixin.py:188} INFO - Summary Bond yields rose early Wednesday, though benchmarks continued to meander within a narrow channel as traders await fresh news that may sway Federal Reserve thinking. successfully analized
+[2024-06-26T17:19:15.902+0000] {logging_mixin.py:188} INFO - Summary  successfully analized
+[2024-06-26T17:19:15.902+0000] {logging_mixin.py:188} INFO - Summary Gap Inc. stands to gain from the back-to-school season, increasing relevance at its namesake stores, a product refresh at its Old Navy stores and early signs of improvement at its fitness brand Athleta, TD Cowen analysts said Tuesday. successfully analized
+[2024-06-26T17:19:15.903+0000] {logging_mixin.py:188} INFO - Summary CNBC's Jim Cramer pinpointed Chewy, Elanco and J.M. Smucker as pet stocks worth a look for investors. successfully analized
+[2024-06-26T17:19:15.903+0000] {logging_mixin.py:188} INFO - Summary CNBC's Jim Cramer on Tuesday opined about his long-standing faith in Nvidia stock. successfully analized
+[2024-06-26T17:19:15.904+0000] {logging_mixin.py:188} INFO - Summary The Florida Panthers captured their first-ever Stanley Cup Monday night — 11 years after Virtu Financial founder Vinnie Viola acquired the team. successfully analized
+[2024-06-26T17:19:15.905+0000] {logging_mixin.py:188} INFO - Summary The self-driving vehicles are still a curiosity to many tourists, who now should have an easier time hailing a ride. successfully analized
+[2024-06-26T17:19:15.905+0000] {logging_mixin.py:188} INFO - Summary The former president and likely GOP nominee is charged with retaining classified documents after his presidency ended and then hiding them from authorities. successfully analized
+[2024-06-26T17:19:15.906+0000] {logging_mixin.py:188} INFO - Summary Nelson Counne made women believe he was a jet-setting bon vivant. Prosecutors said he was a con man who stole $1.8 million from his girlfriends. successfully analized
+[2024-06-26T17:19:15.906+0000] {logging_mixin.py:188} INFO - Summary Veteran videogame executive takes the reins some seven months after co-founder departure, fleet grounding. successfully analized
+[2024-06-26T17:19:15.907+0000] {logging_mixin.py:188} INFO - Summary Shares of Rivian Automotive Inc. skyrocketed after hours Tuesday after Volkswagen AG said it will invest $1 billion in the electric-vehicle maker, with plans to pour billions more if an EV-focused joint venture between the two companies gets off the ground. successfully analized
+[2024-06-26T17:19:15.908+0000] {logging_mixin.py:188} INFO - Summary A “blackout” for stock buybacks ahead of earnings season may be poised to cause another short-term pullback after a run to all-time highs for the S&P 500 and Nasdaq Composite. successfully analized
+[2024-06-26T17:19:15.909+0000] {logging_mixin.py:188} INFO - Summary FedEx Corp. late Tuesday reported a quarterly profit above expectations and called for revenue growth for its upcoming fiscal year, sending the stock 14% higher in the after-hours session. successfully analized
+[2024-06-26T17:19:15.909+0000] {logging_mixin.py:188} INFO - Summary General Motors' Cruise autonomous vehicle unit on Tuesday announced Marc Whitten, a former Amazon and Microsoft executive, as its new CEO. successfully analized
+[2024-06-26T17:19:15.910+0000] {logging_mixin.py:188} INFO - Summary The megacap tech stock entered correction territory this week — and individual investors took advantage of the discount. successfully analized
+[2024-06-26T17:19:15.911+0000] {logging_mixin.py:188} INFO - Summary A top economic adviser to President Joe Biden said that he expects American voters to become less concerned over the high cost of living over time if policymakers can keep the inflation rate under control. successfully analized
+[2024-06-26T17:19:15.911+0000] {logging_mixin.py:188} INFO - Summary Airfare is more likely to go up than down in the next few days. successfully analized
+[2024-06-26T17:19:15.912+0000] {logging_mixin.py:188} INFO - Summary The small-cap focused Russell 2000 index is trading well below its record high in 2021. successfully analized
+[2024-06-26T17:19:15.912+0000] {logging_mixin.py:188} INFO - Summary Semiconductor stocks are bubbling and could lose 40% of their value. successfully analized
+[2024-06-26T17:19:15.913+0000] {logging_mixin.py:188} INFO - Summary Goldman Sachs offers plenty of reasons to like Disney in the years ahead. But Jim Cramer expects the near-term road to remain choppy for the stock. successfully analized
+[2024-06-26T17:19:15.914+0000] {logging_mixin.py:188} INFO - Summary June new-car sales are expected to come in slightly higher than May sales, wrapping up a first half of the year that is also forecast to be a bit better than a year ago, even as high interest rates and car prices continue to keep some buyers sidelined. successfully analized
+[2024-06-26T17:19:15.914+0000] {logging_mixin.py:188} INFO - Summary The margins are tight, but there’s still a profit to be made on the offer, according to restaurant-industry experts successfully analized
+[2024-06-26T17:19:15.915+0000] {logging_mixin.py:188} INFO - Summary Federal judges issued rulings on Monday that bar President Joe Biden and his administration from forgiving more debt and lowering payments on the SAVE plan. successfully analized
+[2024-06-26T17:19:15.915+0000] {logging_mixin.py:188} INFO - Summary Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading. successfully analized
+[2024-06-26T17:19:15.916+0000] {logging_mixin.py:188} INFO - Summary The three-bedroom home was built in 1924, has a garage and a fenced-in backyard. successfully analized
+[2024-06-26T17:19:15.917+0000] {logging_mixin.py:188} INFO - Summary If you’ve been casually following the news lately, you might think Donald Trump has suffered massive financial losses on the stock market since his recent criminal conviction, and that the presidential race is now neck and neck. successfully analized
+[2024-06-26T17:19:15.918+0000] {logging_mixin.py:188} INFO - Summary Broadcom’s furious stock rally has cooled in recent days, such that the company could shed more than $100 billion in market cap across its current five-session losing streak. successfully analized
+[2024-06-26T17:19:15.918+0000] {logging_mixin.py:188} INFO - Summary Inflation is sticky, but these bond yields are eclipsing it. successfully analized
+[2024-06-26T17:19:15.919+0000] {logging_mixin.py:188} INFO - Summary The Investing Club holds its "Morning Meeting" every weekday at 10:20 a.m. ET. successfully analized
+[2024-06-26T17:19:15.919+0000] {logging_mixin.py:188} INFO - Summary The stocks of companies that make swimming pools and related equipment were sharply lower Tuesday, after industry leader Pool Corp. issued a profit warning for 2024 amid weak demand for new pools. successfully analized
+[2024-06-26T17:19:15.920+0000] {logging_mixin.py:188} INFO - Summary Vanguard data casts a shadow on the economy successfully analized
+[2024-06-26T17:19:15.921+0000] {logging_mixin.py:188} INFO - Summary The Federal Reserve should be able to cut interest rates with inflation coming down and the labor market cooling, but the timing of any move is uncertain, Federal Reserve governor Lisa Cook said Tuesday. successfully analized
+[2024-06-26T17:19:15.921+0000] {logging_mixin.py:188} INFO - Summary President Joe Biden’s chances of winning reelection could hinge on the price of gasoline, and rising oil prices are likely a top concern for his campaign. successfully analized
+[2024-06-26T17:19:15.922+0000] {logging_mixin.py:188} INFO - Summary Using app download and registration data in the U.S. and China as well as in Europe, RBC analysts see lower second-quarter sales for Tesla Inc. successfully analized
+[2024-06-26T17:19:15.923+0000] {logging_mixin.py:188} INFO - Summary Car shoppers are turning to hybrids, and automakers are responding with a number of incentives. successfully analized
+[2024-06-26T17:19:15.923+0000] {logging_mixin.py:188} INFO - Summary The stock is tracking toward being one of the best S&P 500 performers on the day. successfully analized
+[2024-06-26T17:19:15.924+0000] {logging_mixin.py:188} INFO - Summary Women and members of marginalized racial and ethnic groups are hit hardest by the disparity in outcomes. successfully analized
+[2024-06-26T17:19:15.924+0000] {logging_mixin.py:188} INFO - Summary Tubi had an average audience of 1 million viewers in May successfully analized
+[2024-06-26T17:19:15.925+0000] {logging_mixin.py:188} INFO - Summary Home prices are now 47% higher than they were in early 2020, with the median sale price now five times the median household income. successfully analized
+[2024-06-26T17:19:15.926+0000] {logging_mixin.py:188} INFO - Summary Phoenix, Las Vegas already seeing record June temperatures successfully analized
+[2024-06-26T17:19:15.926+0000] {logging_mixin.py:188} INFO - Summary Micron stands to benefit from pricing trends in the memory market — even if it weren’t to do any high-bandwidth-memory shipments next year. successfully analized
+[2024-06-26T17:19:15.927+0000] {logging_mixin.py:188} INFO - Summary In 2023, median CEO pay hit $16.3 million while the median S&amp;P employee earned $81,467, according to new research from C-Suite Comp and Equilar. successfully analized
+[2024-06-26T17:19:15.928+0000] {logging_mixin.py:188} INFO - Summary Former U.S. Treasury Secretary Larry Summers took aim Monday at some in the progressive movement who he said are not taking seriously the costs associated with government programs aimed at creating jobs and boosting economic growth. successfully analized
+[2024-06-26T17:19:15.928+0000] {logging_mixin.py:188} INFO - Summary If you're interested in taking on some administrative work, consider virtual assisting, data entry or research. successfully analized
+[2024-06-26T17:19:15.929+0000] {logging_mixin.py:188} INFO - Summary Carnival also signaled smooth seas ahead for its financial performance, with advance bookings for 2025 now running ahead of 2024 in both prices and occupancy. successfully analized
+[2024-06-26T17:19:15.930+0000] {logging_mixin.py:188} INFO - Summary Consumer confidence fell slightly in June and reflected the ongoing  uncertainty among Americans about the future of the economy successfully analized
+[2024-06-26T17:19:15.930+0000] {logging_mixin.py:188} INFO - Summary “My wife and I are not financial wizards.” successfully analized
+[2024-06-26T17:19:15.931+0000] {logging_mixin.py:188} INFO - Summary Europe’s most valuable company said Chinese regulators have approved its marketing application to sell Wegovy as a long-term weight-loss treatment for patients with obesity. successfully analized
+[2024-06-26T17:19:15.932+0000] {logging_mixin.py:188} INFO - Summary The Federal Reserve should not be considering cutting interest rates given the continued risk that inflation remain sticky or even move higher, Fed Governor Michelle Bowman said Tuesday. successfully analized
+[2024-06-26T17:19:15.933+0000] {logging_mixin.py:188} INFO - Summary Scott Mautz, a former senior executive of Procter & Gamble, has spent 30 years studying what makes people mentally strong. successfully analized
+[2024-06-26T17:19:15.933+0000] {logging_mixin.py:188} INFO - Summary Wanted: an honest talk with Americans about social services, retirement and how much in taxes we’re prepared to pay. successfully analized
+[2024-06-26T17:19:15.934+0000] {logging_mixin.py:188} INFO - Summary Americans' 401(k)s are growing — but most workers still don't have enough money in their workplace accounts to cover the costs of retirement, says a new report. successfully analized
+[2024-06-26T17:19:15.934+0000] {logging_mixin.py:188} INFO - Summary “It’s not as if they’re cashing out,” analysts say, but executives are “very comfortable” selling stock near $130. successfully analized
+[2024-06-26T17:19:15.935+0000] {logging_mixin.py:188} INFO - Summary The Nasdaq was looking to bounce at Tuesday's open after having its worst session since April. successfully analized
+[2024-06-26T17:19:15.936+0000] {logging_mixin.py:188} INFO - Summary A commitment by Federal Reserve Chairman Jerome Powell to  revise capital requirements for the U.S.’s largest banks will likely delay any changes until after the fall election season, analysts at TD Cowen said. successfully analized
+[2024-06-26T17:19:15.936+0000] {logging_mixin.py:188} INFO - Summary Case-Shiller 20-city home price index rose 7.2% year-on-year in April. successfully analized
+[2024-06-26T17:19:15.937+0000] {logging_mixin.py:188} INFO - Summary Activist investor Starboard Value has a $500 million stake in Autodesk and seeks clarity on an internal investigation which hit the company's stock hard. successfully analized
+[2024-06-26T17:19:15.937+0000] {logging_mixin.py:188} INFO - Summary The Fed’s annual stress tests are important to bank shareholders because they have an impact on dividends and stock buybacks, which typically enrich the value of share prices. successfully analized
+[2024-06-26T17:19:15.938+0000] {logging_mixin.py:188} INFO - Summary The Delta One lounge is the airline's latest effort to reel in customers and offers perks like massages, showers and a high-end restaurant. successfully analized
+[2024-06-26T17:19:15.939+0000] {logging_mixin.py:188} INFO - Summary Delta is the most profitable U.S. airline and says it continues to beat rivals as more travelers pay up for premium cabins. successfully analized
+[2024-06-26T17:19:15.939+0000] {logging_mixin.py:188} INFO - Summary You don’t want to have too little coverage or too much — but it’s almost impossible to know the ‘Goldilocks’ amount without crunching a lot of data. successfully analized
+[2024-06-26T17:19:15.940+0000] {logging_mixin.py:188} INFO - Summary Oil futures were lower Tuesday morning, consolidating after front-month Brent ended the previous session at a nearly two-month high, buoyed in part by geopolitical worries. successfully analized
+[2024-06-26T17:19:15.941+0000] {logging_mixin.py:188} INFO - Summary The company will make free fixes but isn’t aware of crashes, injuries or deaths related to either matter. successfully analized
+[2024-06-26T17:19:15.941+0000] {logging_mixin.py:188} INFO - Summary After all the recent attention on Nvidia’s market-capitalization milestones, now it could be Amazon’s time to shine. successfully analized
+[2024-06-26T17:19:15.942+0000] {logging_mixin.py:188} INFO - Summary Moderna Inc.’s stock fell 6.4% Wednesday, after the company said that its respiratory syncytial virus, or RSV, shot showed 50% efficacy in preventing the illness after 18 months. successfully analized
+[2024-06-26T17:19:15.943+0000] {logging_mixin.py:188} INFO - Summary The Investing Club holds its "Morning Meeting" every weekday at 10:20 a.m. ET. successfully analized
+[2024-06-26T17:19:15.944+0000] {logging_mixin.py:188} INFO - Summary A difficult childhood left Jennifer Romolini  “addicted” to career success, she writes in her new memoir, “Ambition Monster.” Here’s her advice for a healthier relationship with work. successfully analized
+[2024-06-26T17:19:15.944+0000] {logging_mixin.py:188} INFO - Summary MarketWatch asked six economists why home prices continue to rise, despite elevated mortgage rates and suppressed home sales. successfully analized
+[2024-06-26T17:19:15.945+0000] {logging_mixin.py:188} INFO - Summary First launched in the U.S. in December 2023, the diagnostic tool is now available in 32 European countries, including the U.K., France and Germany. successfully analized
+[2024-06-26T17:19:15.946+0000] {logging_mixin.py:188} INFO - Summary Some investors who tried to buy shares of Berkshire Hathaway Class A stock during a New York Stock Exchange Trading glitch earlier this month were horrified to learn that their orders had been filled at full price — not the more than 99% discount they had been expecting. successfully analized
+[2024-06-26T17:19:15.947+0000] {logging_mixin.py:188} INFO - Summary FedEx Corp.’s outstanding bonds saw net buying out of the gate on Wednesday, in a positive response to the company’s better-than-expected fiscal fourth-quarter earnings and news of a strategic review of its freight business. successfully analized
+[2024-06-26T17:19:15.947+0000] {logging_mixin.py:188} INFO - Summary With Big Tech running into some selling recently, we're asking: Is it too late to get in on the Super Six? successfully analized
+[2024-06-26T17:19:15.948+0000] {logging_mixin.py:188} INFO - Summary Are you getting less than 1% or more than 5%? Do you even know? successfully analized
+[2024-06-26T17:19:15.949+0000] {logging_mixin.py:188} INFO - Summary The S&P 500 index is up over 14% year-to-date, while the Nasdaq Composite is up 18%, but retail investors still think cash is king. successfully analized
+[2024-06-26T17:19:15.949+0000] {logging_mixin.py:188} INFO - Summary Other S&P 500 companies that have done stock splits this year saw nice boosts after announcing splits but muted action after they took effect. successfully analized
+[2024-06-26T17:19:15.950+0000] {logging_mixin.py:188} INFO - Summary Anxiety is often billed as a negative emotion, the "Inside Out 2" shows how it can play a helpful role in your life. successfully analized
+[2024-06-26T17:19:15.951+0000] {logging_mixin.py:188} INFO - Summary Chilled storage specialist was founded in 2008 by two Morgan Stanley veterans. successfully analized
+[2024-06-26T17:19:15.951+0000] {logging_mixin.py:188} INFO - Summary New home sales at 619,000 annual rate in May versus 640,000 in prior month. successfully analized
+[2024-06-26T17:19:15.952+0000] {logging_mixin.py:188} INFO - Summary The S&amp;P 500 and Nasdaq are seeking another positive day after snapping three-session losing streaks Tuesday. successfully analized
+[2024-06-26T17:19:15.952+0000] {logging_mixin.py:188} INFO - Summary FedEx has placed its freight business under strategic review, the company said when it reported fiscal fourth-quarter results Tuesday. successfully analized
+[2024-06-26T17:19:15.953+0000] {logging_mixin.py:188} INFO - Summary Both the S&P 500 and Nasdaq Composite have seen a remarkable record-setting run so far in 2024, even as some corners of the stock market have continued to struggle. But trouble may lurk in the back half of the year. successfully analized
+[2024-06-26T17:19:15.954+0000] {logging_mixin.py:188} INFO - Summary A Stifel analyst says legacy carmakers don’t have the EV know-how to adequately compete with Tesla. successfully analized
+[2024-06-26T17:19:15.954+0000] {logging_mixin.py:188} INFO - Summary Closely followed technician Tom DeMark says a months-long uptrend in the stock market is likely about to hit a temporary peak before a fresh run at a new high. successfully analized
+[2024-06-26T17:19:15.955+0000] {logging_mixin.py:188} INFO - Summary With a market cap of about $5 billion, Whirlpool would represent a major deal for Bosch. successfully analized
+[2024-06-26T17:19:15.956+0000] {logging_mixin.py:188} INFO - Summary Economic fears among top corporate executives move higher in the latest quarterly survey of the CNBC CFO Council. successfully analized
+[2024-06-26T17:19:15.956+0000] {logging_mixin.py:188} INFO - Summary Rivian Automotive Inc. drew praise from at least two analysts on Wednesday as its stock rallied in premarket trades on the electric vehicle maker’s joint venture with German care giant Volkswagen. successfully analized
+[2024-06-26T17:19:15.957+0000] {logging_mixin.py:188} INFO - Summary Greenlight Capital has said an ongoing spat with one of its former staffers over his job title is hurting its business, deterring investors from putting money in the multi-billion-dollar hedge fund and hindering its ability to recruit new employees. successfully analized
+[2024-06-26T17:19:15.958+0000] {logging_mixin.py:188} INFO - Summary The Nvidia stock rally has reignited, with the stock heading to a consecutive day of gains after a recent slide into correction territory. successfully analized
+[2024-06-26T17:19:15.958+0000] {logging_mixin.py:188} INFO - Summary Retirement may be out of reach for the average person lacking financial education and resources. successfully analized
+[2024-06-26T17:19:15.959+0000] {logging_mixin.py:188} INFO - Summary General Mills’ CEO said the company “enhanc[ed] our efficiency in response to a more challenging operating environment.” successfully analized
+[2024-06-26T17:19:15.960+0000] {logging_mixin.py:188} INFO - Summary Share repurchases are at a record, but that isn’t necessarily bullish for the U.S. market successfully analized
+[2024-06-26T17:19:15.960+0000] {logging_mixin.py:188} INFO - Summary Vista Outdoor, parent to brands including CamelBak and Bushnell,  has been the subject of several M&A offers. successfully analized
+[2024-06-26T17:19:15.961+0000] {logging_mixin.py:188} INFO - Summary Mortgage applications rose 0.8% in the last week, the Mortgage Bankers Association said. The average rate for a 30-year mortgage is 6.93%. successfully analized
+[2024-06-26T17:19:15.962+0000] {logging_mixin.py:188} INFO - Summary With Americans still hurting from weathering the highest inflation rate in 40 years, pocketbook issues look set to play a big role in Thursday night’s presidential debate between Joe Biden and Donald Trump. successfully analized
+[2024-06-26T17:19:15.963+0000] {logging_mixin.py:188} INFO - Summary Southwest Airlines Co.’s stock tumbled 10% premarket Wednesday, after the carrier lowered its second-quarter revenue guidance in a dynamic environment. successfully analized
+[2024-06-26T17:19:15.963+0000] {logging_mixin.py:188} INFO - Summary Oil futures rose Wednesday, finding support amid continued jitters over the potential for a broader Middle East conflict as traders awaited official U.S. data on crude and product inventories. successfully analized
+[2024-06-26T17:19:15.964+0000] {logging_mixin.py:188} INFO - Summary Societe Generale’s U.S. equity team says investors looking for the next leg of this stock rally will have to wait until early 2025. successfully analized
+[2024-06-26T17:19:15.965+0000] {logging_mixin.py:188} INFO - Summary A senior research economist at the Federal Reserve’s Cleveland branch, Randal Verbrugge, says the intrinsic characteristics of inflation make it unlikely to get down to the Fed’s 2% target in a timely way. successfully analized
+[2024-06-26T17:19:15.966+0000] {logging_mixin.py:188} INFO - Summary “We have no debt and live comfortably on $150,000 per year.” successfully analized
+[2024-06-26T17:19:15.966+0000] {logging_mixin.py:188} INFO - Summary Citadel founder Ken Griffin received a rare public apology from the Internal Revenue Service after his tax records were leaked. successfully analized
+[2024-06-26T17:19:15.967+0000] {logging_mixin.py:188} INFO - Summary The serene, four-bedroom, four-bath luxury house is in a private, leafy enclave in the upscale Woodland Hills neighborhood. successfully analized
+[2024-06-26T17:19:15.968+0000] {logging_mixin.py:188} INFO - Summary DoorDash reportedly approached Deliveroo last month before negotiations between the two companies broke down over disagreements about valuations successfully analized
+[2024-06-26T17:19:15.968+0000] {logging_mixin.py:188} INFO - Summary Bond yields rose early Wednesday, though benchmarks continued to meander within a narrow channel as traders await fresh news that may sway Federal Reserve thinking. successfully analized
+[2024-06-26T17:19:15.969+0000] {logging_mixin.py:188} INFO - Summary  successfully analized
+[2024-06-26T17:19:15.969+0000] {logging_mixin.py:188} INFO - Summary Gap Inc. stands to gain from the back-to-school season, increasing relevance at its namesake stores, a product refresh at its Old Navy stores and early signs of improvement at its fitness brand Athleta, TD Cowen analysts said Tuesday. successfully analized
+[2024-06-26T17:19:15.970+0000] {logging_mixin.py:188} INFO - Summary CNBC's Jim Cramer pinpointed Chewy, Elanco and J.M. Smucker as pet stocks worth a look for investors. successfully analized
+[2024-06-26T17:19:15.971+0000] {logging_mixin.py:188} INFO - Summary CNBC's Jim Cramer on Tuesday opined about his long-standing faith in Nvidia stock. successfully analized
+[2024-06-26T17:19:15.971+0000] {logging_mixin.py:188} INFO - Summary The Florida Panthers captured their first-ever Stanley Cup Monday night — 11 years after Virtu Financial founder Vinnie Viola acquired the team. successfully analized
+[2024-06-26T17:19:15.972+0000] {logging_mixin.py:188} INFO - Summary The self-driving vehicles are still a curiosity to many tourists, who now should have an easier time hailing a ride. successfully analized
+[2024-06-26T17:19:15.972+0000] {logging_mixin.py:188} INFO - Summary The former president and likely GOP nominee is charged with retaining classified documents after his presidency ended and then hiding them from authorities. successfully analized
+[2024-06-26T17:19:15.973+0000] {logging_mixin.py:188} INFO - Summary Nelson Counne made women believe he was a jet-setting bon vivant. Prosecutors said he was a con man who stole $1.8 million from his girlfriends. successfully analized
+[2024-06-26T17:19:15.973+0000] {logging_mixin.py:188} INFO - Summary Veteran videogame executive takes the reins some seven months after co-founder departure, fleet grounding. successfully analized
+[2024-06-26T17:19:15.974+0000] {logging_mixin.py:188} INFO - Summary Shares of Rivian Automotive Inc. skyrocketed after hours Tuesday after Volkswagen AG said it will invest $1 billion in the electric-vehicle maker, with plans to pour billions more if an EV-focused joint venture between the two companies gets off the ground. successfully analized
+[2024-06-26T17:19:15.975+0000] {logging_mixin.py:188} INFO - Summary A “blackout” for stock buybacks ahead of earnings season may be poised to cause another short-term pullback after a run to all-time highs for the S&P 500 and Nasdaq Composite. successfully analized
+[2024-06-26T17:19:15.976+0000] {logging_mixin.py:188} INFO - Summary FedEx Corp. late Tuesday reported a quarterly profit above expectations and called for revenue growth for its upcoming fiscal year, sending the stock 14% higher in the after-hours session. successfully analized
+[2024-06-26T17:19:15.976+0000] {logging_mixin.py:188} INFO - Summary General Motors' Cruise autonomous vehicle unit on Tuesday announced Marc Whitten, a former Amazon and Microsoft executive, as its new CEO. successfully analized
+[2024-06-26T17:19:15.977+0000] {logging_mixin.py:188} INFO - Summary The megacap tech stock entered correction territory this week — and individual investors took advantage of the discount. successfully analized
+[2024-06-26T17:19:15.977+0000] {logging_mixin.py:188} INFO - Summary A top economic adviser to President Joe Biden said that he expects American voters to become less concerned over the high cost of living over time if policymakers can keep the inflation rate under control. successfully analized
+[2024-06-26T17:19:15.978+0000] {logging_mixin.py:188} INFO - Summary Airfare is more likely to go up than down in the next few days. successfully analized
+[2024-06-26T17:19:15.978+0000] {logging_mixin.py:188} INFO - Summary The small-cap focused Russell 2000 index is trading well below its record high in 2021. successfully analized
+[2024-06-26T17:19:15.979+0000] {logging_mixin.py:188} INFO - Summary Semiconductor stocks are bubbling and could lose 40% of their value. successfully analized
+[2024-06-26T17:19:15.980+0000] {logging_mixin.py:188} INFO - Summary Goldman Sachs offers plenty of reasons to like Disney in the years ahead. But Jim Cramer expects the near-term road to remain choppy for the stock. successfully analized
+[2024-06-26T17:19:15.980+0000] {logging_mixin.py:188} INFO - Summary June new-car sales are expected to come in slightly higher than May sales, wrapping up a first half of the year that is also forecast to be a bit better than a year ago, even as high interest rates and car prices continue to keep some buyers sidelined. successfully analized
+[2024-06-26T17:19:15.981+0000] {logging_mixin.py:188} INFO - Summary The margins are tight, but there’s still a profit to be made on the offer, according to restaurant-industry experts successfully analized
+[2024-06-26T17:19:15.982+0000] {logging_mixin.py:188} INFO - Summary Federal judges issued rulings on Monday that bar President Joe Biden and his administration from forgiving more debt and lowering payments on the SAVE plan. successfully analized
+[2024-06-26T17:19:15.982+0000] {logging_mixin.py:188} INFO - Summary Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading. successfully analized
+[2024-06-26T17:19:15.983+0000] {logging_mixin.py:188} INFO - Summary The three-bedroom home was built in 1924, has a garage and a fenced-in backyard. successfully analized
+[2024-06-26T17:19:15.984+0000] {logging_mixin.py:188} INFO - Summary If you’ve been casually following the news lately, you might think Donald Trump has suffered massive financial losses on the stock market since his recent criminal conviction, and that the presidential race is now neck and neck. successfully analized
+[2024-06-26T17:19:15.984+0000] {logging_mixin.py:188} INFO - Summary Broadcom’s furious stock rally has cooled in recent days, such that the company could shed more than $100 billion in market cap across its current five-session losing streak. successfully analized
+[2024-06-26T17:19:15.985+0000] {logging_mixin.py:188} INFO - Summary Inflation is sticky, but these bond yields are eclipsing it. successfully analized
+[2024-06-26T17:19:15.985+0000] {logging_mixin.py:188} INFO - Summary The Investing Club holds its "Morning Meeting" every weekday at 10:20 a.m. ET. successfully analized
+[2024-06-26T17:19:15.986+0000] {logging_mixin.py:188} INFO - Summary The stocks of companies that make swimming pools and related equipment were sharply lower Tuesday, after industry leader Pool Corp. issued a profit warning for 2024 amid weak demand for new pools. successfully analized
+[2024-06-26T17:19:15.987+0000] {logging_mixin.py:188} INFO - Summary Vanguard data casts a shadow on the economy successfully analized
+[2024-06-26T17:19:15.987+0000] {logging_mixin.py:188} INFO - Summary The Federal Reserve should be able to cut interest rates with inflation coming down and the labor market cooling, but the timing of any move is uncertain, Federal Reserve governor Lisa Cook said Tuesday. successfully analized
+[2024-06-26T17:19:15.988+0000] {logging_mixin.py:188} INFO - Summary President Joe Biden’s chances of winning reelection could hinge on the price of gasoline, and rising oil prices are likely a top concern for his campaign. successfully analized
+[2024-06-26T17:19:15.988+0000] {logging_mixin.py:188} INFO - Summary Using app download and registration data in the U.S. and China as well as in Europe, RBC analysts see lower second-quarter sales for Tesla Inc. successfully analized
+[2024-06-26T17:19:15.989+0000] {logging_mixin.py:188} INFO - Summary Car shoppers are turning to hybrids, and automakers are responding with a number of incentives. successfully analized
+[2024-06-26T17:19:15.989+0000] {logging_mixin.py:188} INFO - Summary The stock is tracking toward being one of the best S&P 500 performers on the day. successfully analized
+[2024-06-26T17:19:15.990+0000] {logging_mixin.py:188} INFO - Summary Women and members of marginalized racial and ethnic groups are hit hardest by the disparity in outcomes. successfully analized
+[2024-06-26T17:19:15.990+0000] {logging_mixin.py:188} INFO - Summary Tubi had an average audience of 1 million viewers in May successfully analized
+[2024-06-26T17:19:15.991+0000] {logging_mixin.py:188} INFO - Summary Home prices are now 47% higher than they were in early 2020, with the median sale price now five times the median household income. successfully analized
+[2024-06-26T17:19:15.992+0000] {logging_mixin.py:188} INFO - Summary Phoenix, Las Vegas already seeing record June temperatures successfully analized
+[2024-06-26T17:19:15.992+0000] {logging_mixin.py:188} INFO - Summary Micron stands to benefit from pricing trends in the memory market — even if it weren’t to do any high-bandwidth-memory shipments next year. successfully analized
+[2024-06-26T17:19:15.993+0000] {logging_mixin.py:188} INFO - Summary In 2023, median CEO pay hit $16.3 million while the median S&amp;P employee earned $81,467, according to new research from C-Suite Comp and Equilar. successfully analized
+[2024-06-26T17:19:15.994+0000] {logging_mixin.py:188} INFO - Summary Former U.S. Treasury Secretary Larry Summers took aim Monday at some in the progressive movement who he said are not taking seriously the costs associated with government programs aimed at creating jobs and boosting economic growth. successfully analized
+[2024-06-26T17:19:15.994+0000] {logging_mixin.py:188} INFO - Summary If you're interested in taking on some administrative work, consider virtual assisting, data entry or research. successfully analized
+[2024-06-26T17:19:15.995+0000] {logging_mixin.py:188} INFO - Summary Carnival also signaled smooth seas ahead for its financial performance, with advance bookings for 2025 now running ahead of 2024 in both prices and occupancy. successfully analized
+[2024-06-26T17:19:15.995+0000] {logging_mixin.py:188} INFO - Summary Consumer confidence fell slightly in June and reflected the ongoing  uncertainty among Americans about the future of the economy successfully analized
+[2024-06-26T17:19:15.996+0000] {logging_mixin.py:188} INFO - Summary “My wife and I are not financial wizards.” successfully analized
+[2024-06-26T17:19:15.997+0000] {logging_mixin.py:188} INFO - Summary Europe’s most valuable company said Chinese regulators have approved its marketing application to sell Wegovy as a long-term weight-loss treatment for patients with obesity. successfully analized
+[2024-06-26T17:19:15.997+0000] {logging_mixin.py:188} INFO - Summary The Federal Reserve should not be considering cutting interest rates given the continued risk that inflation remain sticky or even move higher, Fed Governor Michelle Bowman said Tuesday. successfully analized
+[2024-06-26T17:19:15.998+0000] {logging_mixin.py:188} INFO - Summary Scott Mautz, a former senior executive of Procter & Gamble, has spent 30 years studying what makes people mentally strong. successfully analized
+[2024-06-26T17:19:15.998+0000] {logging_mixin.py:188} INFO - Summary Wanted: an honest talk with Americans about social services, retirement and how much in taxes we’re prepared to pay. successfully analized
+[2024-06-26T17:19:15.999+0000] {logging_mixin.py:188} INFO - Summary Americans' 401(k)s are growing — but most workers still don't have enough money in their workplace accounts to cover the costs of retirement, says a new report. successfully analized
+[2024-06-26T17:19:16.000+0000] {logging_mixin.py:188} INFO - Summary “It’s not as if they’re cashing out,” analysts say, but executives are “very comfortable” selling stock near $130. successfully analized
+[2024-06-26T17:19:16.000+0000] {logging_mixin.py:188} INFO - Summary The Nasdaq was looking to bounce at Tuesday's open after having its worst session since April. successfully analized
+[2024-06-26T17:19:16.001+0000] {logging_mixin.py:188} INFO - Summary A commitment by Federal Reserve Chairman Jerome Powell to  revise capital requirements for the U.S.’s largest banks will likely delay any changes until after the fall election season, analysts at TD Cowen said. successfully analized
+[2024-06-26T17:19:16.002+0000] {logging_mixin.py:188} INFO - Summary Case-Shiller 20-city home price index rose 7.2% year-on-year in April. successfully analized
+[2024-06-26T17:19:16.002+0000] {logging_mixin.py:188} INFO - Summary Activist investor Starboard Value has a $500 million stake in Autodesk and seeks clarity on an internal investigation which hit the company's stock hard. successfully analized
+[2024-06-26T17:19:16.003+0000] {logging_mixin.py:188} INFO - Summary The Fed’s annual stress tests are important to bank shareholders because they have an impact on dividends and stock buybacks, which typically enrich the value of share prices. successfully analized
+[2024-06-26T17:19:16.003+0000] {logging_mixin.py:188} INFO - Summary The Delta One lounge is the airline's latest effort to reel in customers and offers perks like massages, showers and a high-end restaurant. successfully analized
+[2024-06-26T17:19:16.004+0000] {logging_mixin.py:188} INFO - Summary Delta is the most profitable U.S. airline and says it continues to beat rivals as more travelers pay up for premium cabins. successfully analized
+[2024-06-26T17:19:16.005+0000] {logging_mixin.py:188} INFO - Summary You don’t want to have too little coverage or too much — but it’s almost impossible to know the ‘Goldilocks’ amount without crunching a lot of data. successfully analized
+[2024-06-26T17:19:16.006+0000] {logging_mixin.py:188} INFO - Summary After all the recent attention on Nvidia’s market-capitalization milestones, now it could be Amazon’s time to shine. successfully analized
+[2024-06-26T17:19:16.007+0000] {logging_mixin.py:188} INFO - Summary Moderna Inc.’s stock fell 6.4% Wednesday, after the company said that its respiratory syncytial virus, or RSV, shot showed 50% efficacy in preventing the illness after 18 months. successfully analized
+[2024-06-26T17:19:16.008+0000] {logging_mixin.py:188} INFO - Summary The Investing Club holds its "Morning Meeting" every weekday at 10:20 a.m. ET. successfully analized
+[2024-06-26T17:19:16.009+0000] {logging_mixin.py:188} INFO - Summary A difficult childhood left Jennifer Romolini  “addicted” to career success, she writes in her new memoir, “Ambition Monster.” Here’s her advice for a healthier relationship with work. successfully analized
+[2024-06-26T17:19:16.010+0000] {logging_mixin.py:188} INFO - Summary MarketWatch asked six economists why home prices continue to rise, despite elevated mortgage rates and suppressed home sales. successfully analized
+[2024-06-26T17:19:16.011+0000] {logging_mixin.py:188} INFO - Summary First launched in the U.S. in December 2023, the diagnostic tool is now available in 32 European countries, including the U.K., France and Germany. successfully analized
+[2024-06-26T17:19:16.012+0000] {logging_mixin.py:188} INFO - Summary Some investors who tried to buy shares of Berkshire Hathaway Class A stock during a New York Stock Exchange Trading glitch earlier this month were horrified to learn that their orders had been filled at full price — not the more than 99% discount they had been expecting. successfully analized
+[2024-06-26T17:19:16.013+0000] {logging_mixin.py:188} INFO - Summary FedEx Corp.’s outstanding bonds saw net buying out of the gate on Wednesday, in a positive response to the company’s better-than-expected fiscal fourth-quarter earnings and news of a strategic review of its freight business. successfully analized
+[2024-06-26T17:19:16.013+0000] {logging_mixin.py:188} INFO - Summary With Big Tech running into some selling recently, we're asking: Is it too late to get in on the Super Six? successfully analized
+[2024-06-26T17:19:16.014+0000] {logging_mixin.py:188} INFO - Summary Are you getting less than 1% or more than 5%? Do you even know? successfully analized
+[2024-06-26T17:19:16.015+0000] {logging_mixin.py:188} INFO - Summary The S&P 500 index is up over 14% year-to-date, while the Nasdaq Composite is up 18%, but retail investors still think cash is king. successfully analized
+[2024-06-26T17:19:16.015+0000] {logging_mixin.py:188} INFO - Summary Other S&P 500 companies that have done stock splits this year saw nice boosts after announcing splits but muted action after they took effect. successfully analized
+[2024-06-26T17:19:16.016+0000] {logging_mixin.py:188} INFO - Summary Anxiety is often billed as a negative emotion, the "Inside Out 2" shows how it can play a helpful role in your life. successfully analized
+[2024-06-26T17:19:16.016+0000] {logging_mixin.py:188} INFO - Summary Chilled storage specialist was founded in 2008 by two Morgan Stanley veterans. successfully analized
+[2024-06-26T17:19:16.017+0000] {logging_mixin.py:188} INFO - Summary New home sales at 619,000 annual rate in May versus 640,000 in prior month. successfully analized
+[2024-06-26T17:19:16.018+0000] {logging_mixin.py:188} INFO - Summary The S&amp;P 500 and Nasdaq are seeking another positive day after snapping three-session losing streaks Tuesday. successfully analized
+[2024-06-26T17:19:16.018+0000] {logging_mixin.py:188} INFO - Summary FedEx has placed its freight business under strategic review, the company said when it reported fiscal fourth-quarter results Tuesday. successfully analized
+[2024-06-26T17:19:16.019+0000] {logging_mixin.py:188} INFO - Summary Both the S&P 500 and Nasdaq Composite have seen a remarkable record-setting run so far in 2024, even as some corners of the stock market have continued to struggle. But trouble may lurk in the back half of the year. successfully analized
+[2024-06-26T17:19:16.019+0000] {logging_mixin.py:188} INFO - Summary A Stifel analyst says legacy carmakers don’t have the EV know-how to adequately compete with Tesla. successfully analized
+[2024-06-26T17:19:16.020+0000] {logging_mixin.py:188} INFO - Summary Closely followed technician Tom DeMark says a months-long uptrend in the stock market is likely about to hit a temporary peak before a fresh run at a new high. successfully analized
+[2024-06-26T17:19:16.021+0000] {logging_mixin.py:188} INFO - Summary With a market cap of about $5 billion, Whirlpool would represent a major deal for Bosch. successfully analized
+[2024-06-26T17:19:16.021+0000] {logging_mixin.py:188} INFO - Summary Economic fears among top corporate executives move higher in the latest quarterly survey of the CNBC CFO Council. successfully analized
+[2024-06-26T17:19:16.022+0000] {logging_mixin.py:188} INFO - Summary Rivian Automotive Inc. drew praise from at least two analysts on Wednesday as its stock rallied in premarket trades on the electric vehicle maker’s joint venture with German care giant Volkswagen. successfully analized
+[2024-06-26T17:19:16.023+0000] {logging_mixin.py:188} INFO - Summary Greenlight Capital has said an ongoing spat with one of its former staffers over his job title is hurting its business, deterring investors from putting money in the multi-billion-dollar hedge fund and hindering its ability to recruit new employees. successfully analized
+[2024-06-26T17:19:16.023+0000] {logging_mixin.py:188} INFO - Summary The Nvidia stock rally has reignited, with the stock heading to a consecutive day of gains after a recent slide into correction territory. successfully analized
+[2024-06-26T17:19:16.024+0000] {logging_mixin.py:188} INFO - Summary Retirement may be out of reach for the average person lacking financial education and resources. successfully analized
+[2024-06-26T17:19:16.025+0000] {logging_mixin.py:188} INFO - Summary General Mills’ CEO said the company “enhanc[ed] our efficiency in response to a more challenging operating environment.” successfully analized
+[2024-06-26T17:19:16.025+0000] {logging_mixin.py:188} INFO - Summary Share repurchases are at a record, but that isn’t necessarily bullish for the U.S. market successfully analized
+[2024-06-26T17:19:16.026+0000] {logging_mixin.py:188} INFO - Summary Vista Outdoor, parent to brands including CamelBak and Bushnell,  has been the subject of several M&A offers. successfully analized
+[2024-06-26T17:19:16.026+0000] {logging_mixin.py:188} INFO - Summary Mortgage applications rose 0.8% in the last week, the Mortgage Bankers Association said. The average rate for a 30-year mortgage is 6.93%. successfully analized
+[2024-06-26T17:19:16.027+0000] {logging_mixin.py:188} INFO - Summary With Americans still hurting from weathering the highest inflation rate in 40 years, pocketbook issues look set to play a big role in Thursday night’s presidential debate between Joe Biden and Donald Trump. successfully analized
+[2024-06-26T17:19:16.028+0000] {logging_mixin.py:188} INFO - Summary Southwest Airlines Co.’s stock tumbled 10% premarket Wednesday, after the carrier lowered its second-quarter revenue guidance in a dynamic environment. successfully analized
+[2024-06-26T17:19:16.028+0000] {logging_mixin.py:188} INFO - Summary Oil futures rose Wednesday, finding support amid continued jitters over the potential for a broader Middle East conflict as traders awaited official U.S. data on crude and product inventories. successfully analized
+[2024-06-26T17:19:16.029+0000] {logging_mixin.py:188} INFO - Summary Societe Generale’s U.S. equity team says investors looking for the next leg of this stock rally will have to wait until early 2025. successfully analized
+[2024-06-26T17:19:16.030+0000] {logging_mixin.py:188} INFO - Summary A senior research economist at the Federal Reserve’s Cleveland branch, Randal Verbrugge, says the intrinsic characteristics of inflation make it unlikely to get down to the Fed’s 2% target in a timely way. successfully analized
+[2024-06-26T17:19:16.031+0000] {logging_mixin.py:188} INFO - Summary “We have no debt and live comfortably on $150,000 per year.” successfully analized
+[2024-06-26T17:19:16.031+0000] {logging_mixin.py:188} INFO - Summary Citadel founder Ken Griffin received a rare public apology from the Internal Revenue Service after his tax records were leaked. successfully analized
+[2024-06-26T17:19:16.032+0000] {logging_mixin.py:188} INFO - Summary The serene, four-bedroom, four-bath luxury house is in a private, leafy enclave in the upscale Woodland Hills neighborhood. successfully analized
+[2024-06-26T17:19:16.032+0000] {logging_mixin.py:188} INFO - Summary DoorDash reportedly approached Deliveroo last month before negotiations between the two companies broke down over disagreements about valuations successfully analized
+[2024-06-26T17:19:16.033+0000] {logging_mixin.py:188} INFO - Summary Bond yields rose early Wednesday, though benchmarks continued to meander within a narrow channel as traders await fresh news that may sway Federal Reserve thinking. successfully analized
+[2024-06-26T17:19:16.033+0000] {logging_mixin.py:188} INFO - Summary  successfully analized
+[2024-06-26T17:19:16.034+0000] {logging_mixin.py:188} INFO - Summary Gap Inc. stands to gain from the back-to-school season, increasing relevance at its namesake stores, a product refresh at its Old Navy stores and early signs of improvement at its fitness brand Athleta, TD Cowen analysts said Tuesday. successfully analized
+[2024-06-26T17:19:16.035+0000] {logging_mixin.py:188} INFO - Summary CNBC's Jim Cramer pinpointed Chewy, Elanco and J.M. Smucker as pet stocks worth a look for investors. successfully analized
+[2024-06-26T17:19:16.035+0000] {logging_mixin.py:188} INFO - Summary CNBC's Jim Cramer on Tuesday opined about his long-standing faith in Nvidia stock. successfully analized
+[2024-06-26T17:19:16.036+0000] {logging_mixin.py:188} INFO - Summary The Florida Panthers captured their first-ever Stanley Cup Monday night — 11 years after Virtu Financial founder Vinnie Viola acquired the team. successfully analized
+[2024-06-26T17:19:16.037+0000] {logging_mixin.py:188} INFO - Summary The self-driving vehicles are still a curiosity to many tourists, who now should have an easier time hailing a ride. successfully analized
+[2024-06-26T17:19:16.037+0000] {logging_mixin.py:188} INFO - Summary The former president and likely GOP nominee is charged with retaining classified documents after his presidency ended and then hiding them from authorities. successfully analized
+[2024-06-26T17:19:16.038+0000] {logging_mixin.py:188} INFO - Summary Nelson Counne made women believe he was a jet-setting bon vivant. Prosecutors said he was a con man who stole $1.8 million from his girlfriends. successfully analized
+[2024-06-26T17:19:16.038+0000] {logging_mixin.py:188} INFO - Summary Veteran videogame executive takes the reins some seven months after co-founder departure, fleet grounding. successfully analized
+[2024-06-26T17:19:16.039+0000] {logging_mixin.py:188} INFO - Summary Shares of Rivian Automotive Inc. skyrocketed after hours Tuesday after Volkswagen AG said it will invest $1 billion in the electric-vehicle maker, with plans to pour billions more if an EV-focused joint venture between the two companies gets off the ground. successfully analized
+[2024-06-26T17:19:16.040+0000] {logging_mixin.py:188} INFO - Summary A “blackout” for stock buybacks ahead of earnings season may be poised to cause another short-term pullback after a run to all-time highs for the S&P 500 and Nasdaq Composite. successfully analized
+[2024-06-26T17:19:16.040+0000] {logging_mixin.py:188} INFO - Summary FedEx Corp. late Tuesday reported a quarterly profit above expectations and called for revenue growth for its upcoming fiscal year, sending the stock 14% higher in the after-hours session. successfully analized
+[2024-06-26T17:19:16.041+0000] {logging_mixin.py:188} INFO - Summary General Motors' Cruise autonomous vehicle unit on Tuesday announced Marc Whitten, a former Amazon and Microsoft executive, as its new CEO. successfully analized
+[2024-06-26T17:19:16.041+0000] {logging_mixin.py:188} INFO - Summary The megacap tech stock entered correction territory this week — and individual investors took advantage of the discount. successfully analized
+[2024-06-26T17:19:16.042+0000] {logging_mixin.py:188} INFO - Summary A top economic adviser to President Joe Biden said that he expects American voters to become less concerned over the high cost of living over time if policymakers can keep the inflation rate under control. successfully analized
+[2024-06-26T17:19:16.043+0000] {logging_mixin.py:188} INFO - Summary Airfare is more likely to go up than down in the next few days. successfully analized
+[2024-06-26T17:19:16.043+0000] {logging_mixin.py:188} INFO - Summary The small-cap focused Russell 2000 index is trading well below its record high in 2021. successfully analized
+[2024-06-26T17:19:16.044+0000] {logging_mixin.py:188} INFO - Summary Semiconductor stocks are bubbling and could lose 40% of their value. successfully analized
+[2024-06-26T17:19:16.045+0000] {logging_mixin.py:188} INFO - Summary Goldman Sachs offers plenty of reasons to like Disney in the years ahead. But Jim Cramer expects the near-term road to remain choppy for the stock. successfully analized
+[2024-06-26T17:19:16.045+0000] {logging_mixin.py:188} INFO - Summary June new-car sales are expected to come in slightly higher than May sales, wrapping up a first half of the year that is also forecast to be a bit better than a year ago, even as high interest rates and car prices continue to keep some buyers sidelined. successfully analized
+[2024-06-26T17:19:16.046+0000] {logging_mixin.py:188} INFO - Summary The margins are tight, but there’s still a profit to be made on the offer, according to restaurant-industry experts successfully analized
+[2024-06-26T17:19:16.046+0000] {logging_mixin.py:188} INFO - Summary Federal judges issued rulings on Monday that bar President Joe Biden and his administration from forgiving more debt and lowering payments on the SAVE plan. successfully analized
+[2024-06-26T17:19:16.047+0000] {logging_mixin.py:188} INFO - Summary Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading. successfully analized
+[2024-06-26T17:19:16.048+0000] {logging_mixin.py:188} INFO - Summary The three-bedroom home was built in 1924, has a garage and a fenced-in backyard. successfully analized
+[2024-06-26T17:19:16.048+0000] {logging_mixin.py:188} INFO - Summary If you’ve been casually following the news lately, you might think Donald Trump has suffered massive financial losses on the stock market since his recent criminal conviction, and that the presidential race is now neck and neck. successfully analized
+[2024-06-26T17:19:16.049+0000] {logging_mixin.py:188} INFO - Summary Broadcom’s furious stock rally has cooled in recent days, such that the company could shed more than $100 billion in market cap across its current five-session losing streak. successfully analized
+[2024-06-26T17:19:16.050+0000] {logging_mixin.py:188} INFO - Summary Inflation is sticky, but these bond yields are eclipsing it. successfully analized
+[2024-06-26T17:19:16.051+0000] {logging_mixin.py:188} INFO - Summary The Investing Club holds its "Morning Meeting" every weekday at 10:20 a.m. ET. successfully analized
+[2024-06-26T17:19:16.051+0000] {logging_mixin.py:188} INFO - Summary The stocks of companies that make swimming pools and related equipment were sharply lower Tuesday, after industry leader Pool Corp. issued a profit warning for 2024 amid weak demand for new pools. successfully analized
+[2024-06-26T17:19:16.052+0000] {logging_mixin.py:188} INFO - Summary Vanguard data casts a shadow on the economy successfully analized
+[2024-06-26T17:19:16.052+0000] {logging_mixin.py:188} INFO - Summary The Federal Reserve should be able to cut interest rates with inflation coming down and the labor market cooling, but the timing of any move is uncertain, Federal Reserve governor Lisa Cook said Tuesday. successfully analized
+[2024-06-26T17:19:16.053+0000] {logging_mixin.py:188} INFO - Summary President Joe Biden’s chances of winning reelection could hinge on the price of gasoline, and rising oil prices are likely a top concern for his campaign. successfully analized
+[2024-06-26T17:19:16.054+0000] {logging_mixin.py:188} INFO - Summary Using app download and registration data in the U.S. and China as well as in Europe, RBC analysts see lower second-quarter sales for Tesla Inc. successfully analized
+[2024-06-26T17:19:16.054+0000] {logging_mixin.py:188} INFO - Summary Car shoppers are turning to hybrids, and automakers are responding with a number of incentives. successfully analized
+[2024-06-26T17:19:16.055+0000] {logging_mixin.py:188} INFO - Summary The stock is tracking toward being one of the best S&P 500 performers on the day. successfully analized
+[2024-06-26T17:19:16.056+0000] {logging_mixin.py:188} INFO - Summary Women and members of marginalized racial and ethnic groups are hit hardest by the disparity in outcomes. successfully analized
+[2024-06-26T17:19:16.056+0000] {logging_mixin.py:188} INFO - Summary Tubi had an average audience of 1 million viewers in May successfully analized
+[2024-06-26T17:19:16.057+0000] {logging_mixin.py:188} INFO - Summary Home prices are now 47% higher than they were in early 2020, with the median sale price now five times the median household income. successfully analized
+[2024-06-26T17:19:16.058+0000] {logging_mixin.py:188} INFO - Summary Phoenix, Las Vegas already seeing record June temperatures successfully analized
+[2024-06-26T17:19:16.058+0000] {logging_mixin.py:188} INFO - Summary Micron stands to benefit from pricing trends in the memory market — even if it weren’t to do any high-bandwidth-memory shipments next year. successfully analized
+[2024-06-26T17:19:16.059+0000] {logging_mixin.py:188} INFO - Summary In 2023, median CEO pay hit $16.3 million while the median S&amp;P employee earned $81,467, according to new research from C-Suite Comp and Equilar. successfully analized
+[2024-06-26T17:19:16.060+0000] {logging_mixin.py:188} INFO - Summary Former U.S. Treasury Secretary Larry Summers took aim Monday at some in the progressive movement who he said are not taking seriously the costs associated with government programs aimed at creating jobs and boosting economic growth. successfully analized
+[2024-06-26T17:19:16.060+0000] {logging_mixin.py:188} INFO - Summary If you're interested in taking on some administrative work, consider virtual assisting, data entry or research. successfully analized
+[2024-06-26T17:19:16.061+0000] {logging_mixin.py:188} INFO - Summary Carnival also signaled smooth seas ahead for its financial performance, with advance bookings for 2025 now running ahead of 2024 in both prices and occupancy. successfully analized
+[2024-06-26T17:19:16.062+0000] {logging_mixin.py:188} INFO - Summary Consumer confidence fell slightly in June and reflected the ongoing  uncertainty among Americans about the future of the economy successfully analized
+[2024-06-26T17:19:16.062+0000] {logging_mixin.py:188} INFO - Summary “My wife and I are not financial wizards.” successfully analized
+[2024-06-26T17:19:16.063+0000] {logging_mixin.py:188} INFO - Summary Europe’s most valuable company said Chinese regulators have approved its marketing application to sell Wegovy as a long-term weight-loss treatment for patients with obesity. successfully analized
+[2024-06-26T17:19:16.063+0000] {logging_mixin.py:188} INFO - Summary The Federal Reserve should not be considering cutting interest rates given the continued risk that inflation remain sticky or even move higher, Fed Governor Michelle Bowman said Tuesday. successfully analized
+[2024-06-26T17:19:16.064+0000] {logging_mixin.py:188} INFO - Summary Scott Mautz, a former senior executive of Procter & Gamble, has spent 30 years studying what makes people mentally strong. successfully analized
+[2024-06-26T17:19:16.065+0000] {logging_mixin.py:188} INFO - Summary Wanted: an honest talk with Americans about social services, retirement and how much in taxes we’re prepared to pay. successfully analized
+[2024-06-26T17:19:16.065+0000] {logging_mixin.py:188} INFO - Summary Americans' 401(k)s are growing — but most workers still don't have enough money in their workplace accounts to cover the costs of retirement, says a new report. successfully analized
+[2024-06-26T17:19:16.066+0000] {logging_mixin.py:188} INFO - Summary “It’s not as if they’re cashing out,” analysts say, but executives are “very comfortable” selling stock near $130. successfully analized
+[2024-06-26T17:19:16.067+0000] {logging_mixin.py:188} INFO - Summary The Nasdaq was looking to bounce at Tuesday's open after having its worst session since April. successfully analized
+[2024-06-26T17:19:16.068+0000] {logging_mixin.py:188} INFO - Summary A commitment by Federal Reserve Chairman Jerome Powell to  revise capital requirements for the U.S.’s largest banks will likely delay any changes until after the fall election season, analysts at TD Cowen said. successfully analized
+[2024-06-26T17:19:16.068+0000] {logging_mixin.py:188} INFO - Summary Case-Shiller 20-city home price index rose 7.2% year-on-year in April. successfully analized
+[2024-06-26T17:19:16.069+0000] {logging_mixin.py:188} INFO - Summary Activist investor Starboard Value has a $500 million stake in Autodesk and seeks clarity on an internal investigation which hit the company's stock hard. successfully analized
+[2024-06-26T17:19:16.069+0000] {logging_mixin.py:188} INFO - Summary The Fed’s annual stress tests are important to bank shareholders because they have an impact on dividends and stock buybacks, which typically enrich the value of share prices. successfully analized
+[2024-06-26T17:19:16.070+0000] {logging_mixin.py:188} INFO - Summary The Delta One lounge is the airline's latest effort to reel in customers and offers perks like massages, showers and a high-end restaurant. successfully analized
+[2024-06-26T17:19:16.071+0000] {logging_mixin.py:188} INFO - Summary Delta is the most profitable U.S. airline and says it continues to beat rivals as more travelers pay up for premium cabins. successfully analized
+[2024-06-26T17:19:16.071+0000] {logging_mixin.py:188} INFO - Summary You don’t want to have too little coverage or too much — but it’s almost impossible to know the ‘Goldilocks’ amount without crunching a lot of data. successfully analized
+[2024-06-26T17:19:16.072+0000] {logging_mixin.py:188} INFO - Summary After all the recent attention on Nvidia’s market-capitalization milestones, now it could be Amazon’s time to shine. successfully analized
+[2024-06-26T17:19:16.073+0000] {logging_mixin.py:188} INFO - Summary Moderna Inc.’s stock fell 6.4% Wednesday, after the company said that its respiratory syncytial virus, or RSV, shot showed 50% efficacy in preventing the illness after 18 months. successfully analized
+[2024-06-26T17:19:16.073+0000] {logging_mixin.py:188} INFO - Summary The Investing Club holds its "Morning Meeting" every weekday at 10:20 a.m. ET. successfully analized
+[2024-06-26T17:19:16.074+0000] {logging_mixin.py:188} INFO - Summary A difficult childhood left Jennifer Romolini  “addicted” to career success, she writes in her new memoir, “Ambition Monster.” Here’s her advice for a healthier relationship with work. successfully analized
+[2024-06-26T17:19:16.075+0000] {logging_mixin.py:188} INFO - Summary MarketWatch asked six economists why home prices continue to rise, despite elevated mortgage rates and suppressed home sales. successfully analized
+[2024-06-26T17:19:16.076+0000] {logging_mixin.py:188} INFO - Summary First launched in the U.S. in December 2023, the diagnostic tool is now available in 32 European countries, including the U.K., France and Germany. successfully analized
+[2024-06-26T17:19:16.077+0000] {logging_mixin.py:188} INFO - Summary Some investors who tried to buy shares of Berkshire Hathaway Class A stock during a New York Stock Exchange Trading glitch earlier this month were horrified to learn that their orders had been filled at full price — not the more than 99% discount they had been expecting. successfully analized
+[2024-06-26T17:19:16.078+0000] {logging_mixin.py:188} INFO - Summary FedEx Corp.’s outstanding bonds saw net buying out of the gate on Wednesday, in a positive response to the company’s better-than-expected fiscal fourth-quarter earnings and news of a strategic review of its freight business. successfully analized
+[2024-06-26T17:19:16.078+0000] {logging_mixin.py:188} INFO - Summary With Big Tech running into some selling recently, we're asking: Is it too late to get in on the Super Six? successfully analized
+[2024-06-26T17:19:16.079+0000] {logging_mixin.py:188} INFO - Summary Are you getting less than 1% or more than 5%? Do you even know? successfully analized
+[2024-06-26T17:19:16.079+0000] {logging_mixin.py:188} INFO - Summary The S&P 500 index is up over 14% year-to-date, while the Nasdaq Composite is up 18%, but retail investors still think cash is king. successfully analized
+[2024-06-26T17:19:16.080+0000] {logging_mixin.py:188} INFO - Summary Other S&P 500 companies that have done stock splits this year saw nice boosts after announcing splits but muted action after they took effect. successfully analized
+[2024-06-26T17:19:16.081+0000] {logging_mixin.py:188} INFO - Summary Anxiety is often billed as a negative emotion, the "Inside Out 2" shows how it can play a helpful role in your life. successfully analized
+[2024-06-26T17:19:16.081+0000] {logging_mixin.py:188} INFO - Summary Chilled storage specialist was founded in 2008 by two Morgan Stanley veterans. successfully analized
+[2024-06-26T17:19:16.082+0000] {logging_mixin.py:188} INFO - Summary New home sales at 619,000 annual rate in May versus 640,000 in prior month. successfully analized
+[2024-06-26T17:19:16.083+0000] {logging_mixin.py:188} INFO - Summary The S&amp;P 500 and Nasdaq are seeking another positive day after snapping three-session losing streaks Tuesday. successfully analized
+[2024-06-26T17:19:16.083+0000] {logging_mixin.py:188} INFO - Summary FedEx has placed its freight business under strategic review, the company said when it reported fiscal fourth-quarter results Tuesday. successfully analized
+[2024-06-26T17:19:16.084+0000] {logging_mixin.py:188} INFO - Summary Both the S&P 500 and Nasdaq Composite have seen a remarkable record-setting run so far in 2024, even as some corners of the stock market have continued to struggle. But trouble may lurk in the back half of the year. successfully analized
+[2024-06-26T17:19:16.085+0000] {logging_mixin.py:188} INFO - Summary A Stifel analyst says legacy carmakers don’t have the EV know-how to adequately compete with Tesla. successfully analized
+[2024-06-26T17:19:16.085+0000] {logging_mixin.py:188} INFO - Summary Closely followed technician Tom DeMark says a months-long uptrend in the stock market is likely about to hit a temporary peak before a fresh run at a new high. successfully analized
+[2024-06-26T17:19:16.086+0000] {logging_mixin.py:188} INFO - Summary With a market cap of about $5 billion, Whirlpool would represent a major deal for Bosch. successfully analized
+[2024-06-26T17:19:16.086+0000] {logging_mixin.py:188} INFO - Summary Economic fears among top corporate executives move higher in the latest quarterly survey of the CNBC CFO Council. successfully analized
+[2024-06-26T17:19:16.087+0000] {logging_mixin.py:188} INFO - Summary Rivian Automotive Inc. drew praise from at least two analysts on Wednesday as its stock rallied in premarket trades on the electric vehicle maker’s joint venture with German care giant Volkswagen. successfully analized
+[2024-06-26T17:19:16.088+0000] {logging_mixin.py:188} INFO - Summary Greenlight Capital has said an ongoing spat with one of its former staffers over his job title is hurting its business, deterring investors from putting money in the multi-billion-dollar hedge fund and hindering its ability to recruit new employees. successfully analized
+[2024-06-26T17:19:16.088+0000] {logging_mixin.py:188} INFO - Summary The Nvidia stock rally has reignited, with the stock heading to a consecutive day of gains after a recent slide into correction territory. successfully analized
+[2024-06-26T17:19:16.089+0000] {logging_mixin.py:188} INFO - Summary Retirement may be out of reach for the average person lacking financial education and resources. successfully analized
+[2024-06-26T17:19:16.089+0000] {logging_mixin.py:188} INFO - Summary General Mills’ CEO said the company “enhanc[ed] our efficiency in response to a more challenging operating environment.” successfully analized
+[2024-06-26T17:19:16.090+0000] {logging_mixin.py:188} INFO - Summary Share repurchases are at a record, but that isn’t necessarily bullish for the U.S. market successfully analized
+[2024-06-26T17:19:16.091+0000] {logging_mixin.py:188} INFO - Summary Vista Outdoor, parent to brands including CamelBak and Bushnell,  has been the subject of several M&A offers. successfully analized
+[2024-06-26T17:19:16.092+0000] {logging_mixin.py:188} INFO - Summary Mortgage applications rose 0.8% in the last week, the Mortgage Bankers Association said. The average rate for a 30-year mortgage is 6.93%. successfully analized
+[2024-06-26T17:19:16.092+0000] {logging_mixin.py:188} INFO - Summary With Americans still hurting from weathering the highest inflation rate in 40 years, pocketbook issues look set to play a big role in Thursday night’s presidential debate between Joe Biden and Donald Trump. successfully analized
+[2024-06-26T17:19:16.093+0000] {logging_mixin.py:188} INFO - Summary Southwest Airlines Co.’s stock tumbled 10% premarket Wednesday, after the carrier lowered its second-quarter revenue guidance in a dynamic environment. successfully analized
+[2024-06-26T17:19:16.094+0000] {logging_mixin.py:188} INFO - Summary Oil futures rose Wednesday, finding support amid continued jitters over the potential for a broader Middle East conflict as traders awaited official U.S. data on crude and product inventories. successfully analized
+[2024-06-26T17:19:16.095+0000] {logging_mixin.py:188} INFO - Summary Societe Generale’s U.S. equity team says investors looking for the next leg of this stock rally will have to wait until early 2025. successfully analized
+[2024-06-26T17:19:16.095+0000] {logging_mixin.py:188} INFO - Summary A senior research economist at the Federal Reserve’s Cleveland branch, Randal Verbrugge, says the intrinsic characteristics of inflation make it unlikely to get down to the Fed’s 2% target in a timely way. successfully analized
+[2024-06-26T17:19:16.096+0000] {logging_mixin.py:188} INFO - Summary “We have no debt and live comfortably on $150,000 per year.” successfully analized
+[2024-06-26T17:19:16.096+0000] {logging_mixin.py:188} INFO - Summary Citadel founder Ken Griffin received a rare public apology from the Internal Revenue Service after his tax records were leaked. successfully analized
+[2024-06-26T17:19:16.097+0000] {logging_mixin.py:188} INFO - Summary The serene, four-bedroom, four-bath luxury house is in a private, leafy enclave in the upscale Woodland Hills neighborhood. successfully analized
+[2024-06-26T17:19:16.098+0000] {logging_mixin.py:188} INFO - Summary DoorDash reportedly approached Deliveroo last month before negotiations between the two companies broke down over disagreements about valuations successfully analized
+[2024-06-26T17:19:16.098+0000] {logging_mixin.py:188} INFO - Summary Bond yields rose early Wednesday, though benchmarks continued to meander within a narrow channel as traders await fresh news that may sway Federal Reserve thinking. successfully analized
+[2024-06-26T17:19:16.099+0000] {logging_mixin.py:188} INFO - Summary  successfully analized
+[2024-06-26T17:19:16.099+0000] {logging_mixin.py:188} INFO - Summary Gap Inc. stands to gain from the back-to-school season, increasing relevance at its namesake stores, a product refresh at its Old Navy stores and early signs of improvement at its fitness brand Athleta, TD Cowen analysts said Tuesday. successfully analized
+[2024-06-26T17:19:16.100+0000] {logging_mixin.py:188} INFO - Summary CNBC's Jim Cramer pinpointed Chewy, Elanco and J.M. Smucker as pet stocks worth a look for investors. successfully analized
+[2024-06-26T17:19:16.101+0000] {logging_mixin.py:188} INFO - Summary CNBC's Jim Cramer on Tuesday opined about his long-standing faith in Nvidia stock. successfully analized
+[2024-06-26T17:19:16.101+0000] {logging_mixin.py:188} INFO - Summary The Florida Panthers captured their first-ever Stanley Cup Monday night — 11 years after Virtu Financial founder Vinnie Viola acquired the team. successfully analized
+[2024-06-26T17:19:16.102+0000] {logging_mixin.py:188} INFO - Summary The self-driving vehicles are still a curiosity to many tourists, who now should have an easier time hailing a ride. successfully analized
+[2024-06-26T17:19:16.102+0000] {logging_mixin.py:188} INFO - Summary The former president and likely GOP nominee is charged with retaining classified documents after his presidency ended and then hiding them from authorities. successfully analized
+[2024-06-26T17:19:16.103+0000] {logging_mixin.py:188} INFO - Summary Nelson Counne made women believe he was a jet-setting bon vivant. Prosecutors said he was a con man who stole $1.8 million from his girlfriends. successfully analized
+[2024-06-26T17:19:16.104+0000] {logging_mixin.py:188} INFO - Summary Veteran videogame executive takes the reins some seven months after co-founder departure, fleet grounding. successfully analized
+[2024-06-26T17:19:16.104+0000] {logging_mixin.py:188} INFO - Summary Shares of Rivian Automotive Inc. skyrocketed after hours Tuesday after Volkswagen AG said it will invest $1 billion in the electric-vehicle maker, with plans to pour billions more if an EV-focused joint venture between the two companies gets off the ground. successfully analized
+[2024-06-26T17:19:16.105+0000] {logging_mixin.py:188} INFO - Summary A “blackout” for stock buybacks ahead of earnings season may be poised to cause another short-term pullback after a run to all-time highs for the S&P 500 and Nasdaq Composite. successfully analized
+[2024-06-26T17:19:16.106+0000] {logging_mixin.py:188} INFO - Summary FedEx Corp. late Tuesday reported a quarterly profit above expectations and called for revenue growth for its upcoming fiscal year, sending the stock 14% higher in the after-hours session. successfully analized
+[2024-06-26T17:19:16.106+0000] {logging_mixin.py:188} INFO - Summary General Motors' Cruise autonomous vehicle unit on Tuesday announced Marc Whitten, a former Amazon and Microsoft executive, as its new CEO. successfully analized
+[2024-06-26T17:19:16.107+0000] {logging_mixin.py:188} INFO - Summary The megacap tech stock entered correction territory this week — and individual investors took advantage of the discount. successfully analized
+[2024-06-26T17:19:16.108+0000] {logging_mixin.py:188} INFO - Summary A top economic adviser to President Joe Biden said that he expects American voters to become less concerned over the high cost of living over time if policymakers can keep the inflation rate under control. successfully analized
+[2024-06-26T17:19:16.108+0000] {logging_mixin.py:188} INFO - Summary Airfare is more likely to go up than down in the next few days. successfully analized
+[2024-06-26T17:19:16.109+0000] {logging_mixin.py:188} INFO - Summary The small-cap focused Russell 2000 index is trading well below its record high in 2021. successfully analized
+[2024-06-26T17:19:16.109+0000] {logging_mixin.py:188} INFO - Summary Semiconductor stocks are bubbling and could lose 40% of their value. successfully analized
+[2024-06-26T17:19:16.110+0000] {logging_mixin.py:188} INFO - Summary Goldman Sachs offers plenty of reasons to like Disney in the years ahead. But Jim Cramer expects the near-term road to remain choppy for the stock. successfully analized
+[2024-06-26T17:19:16.111+0000] {logging_mixin.py:188} INFO - Summary June new-car sales are expected to come in slightly higher than May sales, wrapping up a first half of the year that is also forecast to be a bit better than a year ago, even as high interest rates and car prices continue to keep some buyers sidelined. successfully analized
+[2024-06-26T17:19:16.111+0000] {logging_mixin.py:188} INFO - Summary The margins are tight, but there’s still a profit to be made on the offer, according to restaurant-industry experts successfully analized
+[2024-06-26T17:19:16.112+0000] {logging_mixin.py:188} INFO - Summary Federal judges issued rulings on Monday that bar President Joe Biden and his administration from forgiving more debt and lowering payments on the SAVE plan. successfully analized
+[2024-06-26T17:19:16.112+0000] {logging_mixin.py:188} INFO - Summary Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading. successfully analized
+[2024-06-26T17:19:16.113+0000] {logging_mixin.py:188} INFO - Summary The three-bedroom home was built in 1924, has a garage and a fenced-in backyard. successfully analized
+[2024-06-26T17:19:16.114+0000] {logging_mixin.py:188} INFO - Summary If you’ve been casually following the news lately, you might think Donald Trump has suffered massive financial losses on the stock market since his recent criminal conviction, and that the presidential race is now neck and neck. successfully analized
+[2024-06-26T17:19:16.114+0000] {logging_mixin.py:188} INFO - Summary Broadcom’s furious stock rally has cooled in recent days, such that the company could shed more than $100 billion in market cap across its current five-session losing streak. successfully analized
+[2024-06-26T17:19:16.115+0000] {logging_mixin.py:188} INFO - Summary Inflation is sticky, but these bond yields are eclipsing it. successfully analized
+[2024-06-26T17:19:16.115+0000] {logging_mixin.py:188} INFO - Summary The Investing Club holds its "Morning Meeting" every weekday at 10:20 a.m. ET. successfully analized
+[2024-06-26T17:19:16.116+0000] {logging_mixin.py:188} INFO - Summary The stocks of companies that make swimming pools and related equipment were sharply lower Tuesday, after industry leader Pool Corp. issued a profit warning for 2024 amid weak demand for new pools. successfully analized
+[2024-06-26T17:19:16.117+0000] {logging_mixin.py:188} INFO - Summary Vanguard data casts a shadow on the economy successfully analized
+[2024-06-26T17:19:16.117+0000] {logging_mixin.py:188} INFO - Summary The Federal Reserve should be able to cut interest rates with inflation coming down and the labor market cooling, but the timing of any move is uncertain, Federal Reserve governor Lisa Cook said Tuesday. successfully analized
+[2024-06-26T17:19:16.118+0000] {logging_mixin.py:188} INFO - Summary President Joe Biden’s chances of winning reelection could hinge on the price of gasoline, and rising oil prices are likely a top concern for his campaign. successfully analized
+[2024-06-26T17:19:16.118+0000] {logging_mixin.py:188} INFO - Summary Using app download and registration data in the U.S. and China as well as in Europe, RBC analysts see lower second-quarter sales for Tesla Inc. successfully analized
+[2024-06-26T17:19:16.119+0000] {logging_mixin.py:188} INFO - Summary Car shoppers are turning to hybrids, and automakers are responding with a number of incentives. successfully analized
+[2024-06-26T17:19:16.120+0000] {logging_mixin.py:188} INFO - Summary The stock is tracking toward being one of the best S&P 500 performers on the day. successfully analized
+[2024-06-26T17:19:16.120+0000] {logging_mixin.py:188} INFO - Summary Women and members of marginalized racial and ethnic groups are hit hardest by the disparity in outcomes. successfully analized
+[2024-06-26T17:19:16.121+0000] {logging_mixin.py:188} INFO - Summary Tubi had an average audience of 1 million viewers in May successfully analized
+[2024-06-26T17:19:16.121+0000] {logging_mixin.py:188} INFO - Summary Home prices are now 47% higher than they were in early 2020, with the median sale price now five times the median household income. successfully analized
+[2024-06-26T17:19:16.122+0000] {logging_mixin.py:188} INFO - Summary Phoenix, Las Vegas already seeing record June temperatures successfully analized
+[2024-06-26T17:19:16.122+0000] {logging_mixin.py:188} INFO - Summary Micron stands to benefit from pricing trends in the memory market — even if it weren’t to do any high-bandwidth-memory shipments next year. successfully analized
+[2024-06-26T17:19:16.123+0000] {logging_mixin.py:188} INFO - Summary In 2023, median CEO pay hit $16.3 million while the median S&amp;P employee earned $81,467, according to new research from C-Suite Comp and Equilar. successfully analized
+[2024-06-26T17:19:16.124+0000] {logging_mixin.py:188} INFO - Summary Former U.S. Treasury Secretary Larry Summers took aim Monday at some in the progressive movement who he said are not taking seriously the costs associated with government programs aimed at creating jobs and boosting economic growth. successfully analized
+[2024-06-26T17:19:16.124+0000] {logging_mixin.py:188} INFO - Summary If you're interested in taking on some administrative work, consider virtual assisting, data entry or research. successfully analized
+[2024-06-26T17:19:16.125+0000] {logging_mixin.py:188} INFO - Summary Carnival also signaled smooth seas ahead for its financial performance, with advance bookings for 2025 now running ahead of 2024 in both prices and occupancy. successfully analized
+[2024-06-26T17:19:16.126+0000] {logging_mixin.py:188} INFO - Summary Consumer confidence fell slightly in June and reflected the ongoing  uncertainty among Americans about the future of the economy successfully analized
+[2024-06-26T17:19:16.126+0000] {logging_mixin.py:188} INFO - Summary “My wife and I are not financial wizards.” successfully analized
+[2024-06-26T17:19:16.127+0000] {logging_mixin.py:188} INFO - Summary Europe’s most valuable company said Chinese regulators have approved its marketing application to sell Wegovy as a long-term weight-loss treatment for patients with obesity. successfully analized
+[2024-06-26T17:19:16.128+0000] {logging_mixin.py:188} INFO - Summary The Federal Reserve should not be considering cutting interest rates given the continued risk that inflation remain sticky or even move higher, Fed Governor Michelle Bowman said Tuesday. successfully analized
+[2024-06-26T17:19:16.128+0000] {logging_mixin.py:188} INFO - Summary Scott Mautz, a former senior executive of Procter & Gamble, has spent 30 years studying what makes people mentally strong. successfully analized
+[2024-06-26T17:19:16.129+0000] {logging_mixin.py:188} INFO - Summary Wanted: an honest talk with Americans about social services, retirement and how much in taxes we’re prepared to pay. successfully analized
+[2024-06-26T17:19:16.130+0000] {logging_mixin.py:188} INFO - Summary Americans' 401(k)s are growing — but most workers still don't have enough money in their workplace accounts to cover the costs of retirement, says a new report. successfully analized
+[2024-06-26T17:19:16.130+0000] {logging_mixin.py:188} INFO - Summary “It’s not as if they’re cashing out,” analysts say, but executives are “very comfortable” selling stock near $130. successfully analized
+[2024-06-26T17:19:16.131+0000] {logging_mixin.py:188} INFO - Summary The Nasdaq was looking to bounce at Tuesday's open after having its worst session since April. successfully analized
+[2024-06-26T17:19:16.132+0000] {logging_mixin.py:188} INFO - Summary A commitment by Federal Reserve Chairman Jerome Powell to  revise capital requirements for the U.S.’s largest banks will likely delay any changes until after the fall election season, analysts at TD Cowen said. successfully analized
+[2024-06-26T17:19:16.132+0000] {logging_mixin.py:188} INFO - Summary Case-Shiller 20-city home price index rose 7.2% year-on-year in April. successfully analized
+[2024-06-26T17:19:16.133+0000] {logging_mixin.py:188} INFO - Summary Activist investor Starboard Value has a $500 million stake in Autodesk and seeks clarity on an internal investigation which hit the company's stock hard. successfully analized
+[2024-06-26T17:19:16.133+0000] {logging_mixin.py:188} INFO - Summary The Fed’s annual stress tests are important to bank shareholders because they have an impact on dividends and stock buybacks, which typically enrich the value of share prices. successfully analized
+[2024-06-26T17:19:16.134+0000] {logging_mixin.py:188} INFO - Summary The Delta One lounge is the airline's latest effort to reel in customers and offers perks like massages, showers and a high-end restaurant. successfully analized
+[2024-06-26T17:19:16.135+0000] {logging_mixin.py:188} INFO - Summary Delta is the most profitable U.S. airline and says it continues to beat rivals as more travelers pay up for premium cabins. successfully analized
+[2024-06-26T17:19:16.135+0000] {logging_mixin.py:188} INFO - Summary You don’t want to have too little coverage or too much — but it’s almost impossible to know the ‘Goldilocks’ amount without crunching a lot of data. successfully analized
+[2024-06-26T17:19:16.142+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "postgres" (172.21.0.2), port 5432 failed: FATAL:  database "data_warehouse" does not exist
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 19, in run
+    postgres_loader.load(sentiment_output, "sentiment_news_analysis")
+  File "/opt/airflow/plugins/postgres_loader.py", line 13, in load
+    conn = db.connect()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "postgres" (172.21.0.2), port 5432 failed: FATAL:  database "data_warehouse" does not exist
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2024-06-26T17:19:16.154+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=dag_sentiment_analysis, task_id=sa_load, execution_date=20240626T171403, start_date=20240626T171911, end_date=20240626T171916
+[2024-06-26T17:19:16.166+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 25 for task sa_load ((psycopg2.OperationalError) connection to server at "postgres" (172.21.0.2), port 5432 failed: FATAL:  database "data_warehouse" does not exist
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 440)
+[2024-06-26T17:19:16.179+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-06-26T17:19:16.195+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
