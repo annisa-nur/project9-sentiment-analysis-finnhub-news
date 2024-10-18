@@ -10,6 +10,7 @@ Step of the works:
 3. Create python code to extract from Finnhub and load to MongoDB
 4. Create Python code that Get data from MongoDB and do Sentiment Analysis then load the result to Postgres
 
+![image](image/architecture.png)
 ![image](image/1.png)
 ![image](image/2.png)
 ![image](image/3.png)
